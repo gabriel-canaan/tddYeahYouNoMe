@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h2>
-          Presents!
+          Presents !
 </h2>,
         <div
           className="gift-list"
@@ -35,7 +35,7 @@ ShallowWrapper {
           disabled={false}
           onClick={[Function]}
 >
-          Add Present!
+          Add Present !
 </Button>,
       ],
     },
@@ -46,10 +46,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Presents!",
+          "children": "Presents !",
         },
         "ref": null,
-        "rendered": "Presents!",
+        "rendered": "Presents !",
         "type": "h2",
       },
       Object {
@@ -73,13 +73,13 @@ ShallowWrapper {
           "block": false,
           "bsClass": "btn",
           "bsStyle": "default",
-          "children": "Add Present!",
+          "children": "Add Present !",
           "className": "btn-add",
           "disabled": false,
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": "Add Present!",
+        "rendered": "Add Present !",
         "type": [Function],
       },
     ],
@@ -93,7 +93,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h2>
-            Presents!
+            Presents !
 </h2>,
           <div
             className="gift-list"
@@ -109,7 +109,7 @@ ShallowWrapper {
             disabled={false}
             onClick={[Function]}
 >
-            Add Present!
+            Add Present !
 </Button>,
         ],
       },
@@ -120,10 +120,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Presents!",
+            "children": "Presents !",
           },
           "ref": null,
-          "rendered": "Presents!",
+          "rendered": "Presents !",
           "type": "h2",
         },
         Object {
@@ -147,13 +147,13 @@ ShallowWrapper {
             "block": false,
             "bsClass": "btn",
             "bsStyle": "default",
-            "children": "Add Present!",
+            "children": "Add Present !",
             "className": "btn-add",
             "disabled": false,
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": "Add Present!",
+          "rendered": "Add Present !",
           "type": [Function],
         },
       ],
