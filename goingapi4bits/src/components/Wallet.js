@@ -27,4 +27,4 @@ withdraw = () => this.props.withdraw(this.state.balance)
     )
   }
 }
-export default connect(state => { return {balance: state} }, { deposit, withdraw })(Wallet)
+export default connect(state => { return {balance: state.balance } }, { deposit, withdraw })(Wallet)
