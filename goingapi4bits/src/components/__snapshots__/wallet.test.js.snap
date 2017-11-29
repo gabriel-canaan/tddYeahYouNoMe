@@ -7,6 +7,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Wallet
     balance={20}
     deposit={[Function]}
+    withdraw={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -24,7 +25,7 @@ ShallowWrapper {
         <h3
           className="balance"
 >
-          How much in your skyrocket!: 
+          How much in your skyrocket! : 
           20
 </h3>,
         <br />,
@@ -38,6 +39,12 @@ ShallowWrapper {
 >
           Deposit
 </button>,
+        <button
+          className="btn-withdraw"
+          onClick={[Function]}
+>
+          Withdraw
+</button>,
       ],
     },
     "ref": null,
@@ -48,14 +55,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "How much in your skyrocket!: ",
+            "How much in your skyrocket! : ",
             20,
           ],
           "className": "balance",
         },
         "ref": null,
         "rendered": Array [
-          "How much in your skyrocket!: ",
+          "How much in your skyrocket! : ",
           20,
         ],
         "type": "h3",
@@ -94,6 +101,19 @@ ShallowWrapper {
         "rendered": "Deposit",
         "type": "button",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Withdraw",
+          "className": "btn-withdraw",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Withdraw",
+        "type": "button",
+      },
     ],
     "type": "div",
   },
@@ -107,7 +127,7 @@ ShallowWrapper {
           <h3
             className="balance"
 >
-            How much in your skyrocket!: 
+            How much in your skyrocket! : 
             20
 </h3>,
           <br />,
@@ -121,6 +141,12 @@ ShallowWrapper {
 >
             Deposit
 </button>,
+          <button
+            className="btn-withdraw"
+            onClick={[Function]}
+>
+            Withdraw
+</button>,
         ],
       },
       "ref": null,
@@ -131,14 +157,14 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "How much in your skyrocket!: ",
+              "How much in your skyrocket! : ",
               20,
             ],
             "className": "balance",
           },
           "ref": null,
           "rendered": Array [
-            "How much in your skyrocket!: ",
+            "How much in your skyrocket! : ",
             20,
           ],
           "type": "h3",
@@ -175,6 +201,19 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Deposit",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Withdraw",
+            "className": "btn-withdraw",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Withdraw",
           "type": "button",
         },
       ],
